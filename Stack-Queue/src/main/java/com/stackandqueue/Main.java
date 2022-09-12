@@ -28,5 +28,15 @@ public class Main {
         stack.pop();
         stack.display();
         System.out.printf("\nTop element is %d\n", stack.peek());
+
+        //==============================================================//
+
+        System.out.println("Welcome to Queue Problem....!!!");
+        Queue queue = new Queue();
+
+        queue.enQueue(56);
+        queue.enQueue(30);
+        queue.enQueue(70);
+        queue.display();
     }
 }
