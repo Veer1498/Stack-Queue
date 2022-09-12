@@ -12,5 +12,21 @@ public class Main {
         stack.push(30);
         stack.push(56);
         stack.display();
+
+        // print Top element of Stack
+        System.out.println();
+        stack.pop();
+        stack.display();
+        System.out.printf("\nTop element is %d\n", stack.peek());
+
+        System.out.println();
+        stack.pop();
+        stack.display();
+        System.out.printf("\nTop element is %d\n", stack.peek());
+
+        System.out.println();
+        stack.pop();
+        stack.display();
+        System.out.printf("\nTop element is %d\n", stack.peek());
     }
 }
