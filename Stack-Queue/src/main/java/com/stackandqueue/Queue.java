@@ -36,4 +36,15 @@ public class Queue {
             temp = temp.next;
         }
     }
+
+    // Delete Data From Queue
+    public void deQueue() {
+        if (front != null) {
+            int temp = front.key;
+            front = front.next;
+            length--;
+            return;
+        }
+
+    }
 }
